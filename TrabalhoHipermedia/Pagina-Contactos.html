@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
+  <link rel="stylesheet" href="contactoep.css">
+  <link rel="stylesheet" href="contacto.css">
+  
+  <title>Contactos</title>
+
+</head>
+<body>
+  <div class="containermain">
+    <img class="imagem" src="imagens/pattern-bg.png">
+    <div class="IP">
+      <h3>IP Adress Tracker</h3>
+    </div>
+    <input class="intIP" type="adress" id="adress" name="adress" placeholder=" Search for any IP adress or domain ">
+    <button class="btn" type="button"><img src="imagens/icon-arrow.svg"/></button>
+  </div>
+  <div class="containerip">
+    <div class="ip">
+        <h1>IP ADDRESS</h1>
+        <div class="endereço">
+            <h2>192.212.174.101</h2>
+        </div>
+    </div>
+    <div class="location">
+        <h1>LOCATION</h1>
+        <div class="endereço">
+            <h2>Brooklyn, NY 10001</h2>
+        </div>
+    </div>
+    <div class="timezone">
+        <h1>TIMEZONE</h1>
+        <div class="endereço">
+            <h2>UTC -05:00</h2>
+        </div>
+    </div>
+    <div class="isp">
+        <h1>ISP</h1>
+        <h2>SpaceX</h2>
+        <h2>Starlink</h2>
+    </div>
+  </div>
+  <div id="map"></div>
+  <script>
+    function myMap() {
+        const myLatLng = {
+          lat: 40.6501038,
+          lng: -73.9495823
+        };
+        var mapProp = {
+            center: new google.maps.LatLng(40.6501038,-73.9495823),
+            zoom: 15,
+        };
+        var map = new google.maps.Map(document.getElementById("map"), mapProp);
+        new google.maps.Marker({
+            position: myLatLng,
+            map,
+        });
+    }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArkJ5vtihQ4QALldr1UycPmr8oAi7P_d4&callback=myMap"></script>
+  <div class="attribution">
+    Coded by <a href="#">Victor Paul Vieira Rodriguez</a>.
+  </div>
+</body>
+</html>
