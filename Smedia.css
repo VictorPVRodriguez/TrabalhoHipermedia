@@ -1,0 +1,648 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+body.dark {
+  background: #111111;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.Main_media h1 {
+  margin-left: 2em;
+  max-block-size: 300%;
+  margin-bottom: 5%;
+  color: #111111;
+}
+
+body.dark .Main_media h1 {
+  color: #f1f1f1;
+}
+
+.Main_media h3 {
+  margin-left: 4em;
+  font-size: 150%;
+  margin-bottom: 5%;
+  color: #8b97c6;
+}
+
+.Dark_mode {
+  margin-top: 30px;
+  margin-left: 10em;
+  max-width: 1440px;
+  min-width: 400px;
+  color: #111111;
+}
+
+body.dark .Dark_mode {
+  color: #f1f1f1;
+}
+
+.facebook {
+  width: 250px;
+  height: 200px;
+  margin-left: 6em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+  margin-bottom: 2em;
+  border-top: 5px solid #198ff5;
+}
+
+body.dark .facebook {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.facebook h3 {
+  position: absolute;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+
+.facebook h1 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: .6em;
+}
+
+.facebook h4 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 3.5em;
+}
+
+.facebook h5 {
+  position: absolute;
+  margin-left: 6em;
+  margin-top: 4em;
+  color: #1db489;
+}
+
+.facebook svg {
+  position: relative;
+  margin-top: 3.6em;
+  margin-left: 4em;
+}
+
+body.dark .facebook svg {
+  color: #f1f1f1;
+}
+
+.twitter {
+  width: 250px;
+  height: 200px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+  border-top: 5px solid #1ca0f2;
+}
+
+body.dark .twitter {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.twitter h3 {
+  position: absolute;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+
+.twitter h1 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: .6em;
+}
+
+.twitter h4 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 3.5em;
+}
+
+.twitter h5 {
+  position: absolute;
+  margin-left: 6em;
+  margin-top: 4em;
+  color: #1db489;
+}
+
+.twitter svg {
+  position: relative;
+  margin-top: 3.6em;
+  margin-left: 4em;
+}
+
+body.dark .twitter svg {
+  color: #f1f1f1;
+}
+
+.instagram {
+  width: 250px;
+  height: 200px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+  border-top: 5px solid #fdc468;
+}
+
+body.dark .instagram {
+  color: #f1f1f1;
+  background-color: #222222;
+  border-top: 5px solid #df4996;
+}
+
+.instagram h3 {
+  position: absolute;
+  margin-left: 2em;
+  margin-bottom: 3em;
+}
+
+.instagram h1 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: .6em;
+}
+
+.instagram h4 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 3.5em;
+}
+
+.instagram h5 {
+  position: absolute;
+  margin-left: 6em;
+  margin-top: 4em;
+  color: #1db489;
+}
+
+.instagram svg {
+  position: relative;
+  margin-top: 3.6em;
+  margin-left: 4em;
+}
+
+body.dark .instagram svg {
+  color: #f1f1f1;
+}
+
+.youtube {
+  width: 250px;
+  height: 200px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+  border-top: 5px solid #c4032a;
+}
+
+body.dark .youtube {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.youtube h3 {
+  position: absolute;
+  margin-left: 3em;
+  margin-bottom: 3em;
+}
+
+.youtube h1 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: .6em;
+}
+
+.youtube h4 {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 3.5em;
+}
+
+.youtube h5 {
+  position: absolute;
+  margin-left: 6em;
+  margin-top: 4em;
+  color: #1db489;
+}
+
+.youtube svg {
+  position: relative;
+  margin-top: 3.6em;
+  margin-left: 4em;
+}
+
+body.dark .youtube svg {
+  color: #f1f1f1;
+}
+
+.Overview {
+  color: #111111;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 150%;
+}
+
+.Overview h1 {
+  margin-left: 2em;
+}
+
+body.dark .Overview {
+  color: #f1f1f1;
+}
+
+.Pagina {
+  width: 230px;
+  height: 150px;
+  margin-left: 9em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Pagina h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Pagina h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Pagina h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 12em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Pagina svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 9em;
+}
+
+body.dark .Pagina {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Likefa {
+  width: 230px;
+  height: 150px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Likefa h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Likefa h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Likefa h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 12em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Likefa svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 9em;
+}
+
+body.dark .Likefa {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Likein {
+  width: 230px;
+  height: 150px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Likein h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Likein h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Likein h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 10.5em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Likein svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 8em;
+}
+
+body.dark .Likein {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Profile {
+  width: 230px;
+  height: 150px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Profile h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Profile h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Profile h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 10.5em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Profile svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 8em;
+}
+
+body.dark .Profile {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Retweets {
+  width: 230px;
+  height: 150px;
+  margin-left: 9em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Retweets h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Retweets h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Retweets h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 11em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Retweets svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 8.4em;
+}
+
+body.dark .Retweets {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Liketw {
+  width: 230px;
+  height: 150px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Liketw h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Liketw h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Liketw h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 11em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Liketw svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 8.4em;
+}
+
+body.dark .Liketw {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Likeyou {
+  width: 230px;
+  height: 150px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Likeyou h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Likeyou h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Likeyou h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 11.5em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Likeyou svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 8.8em;
+}
+
+body.dark .Likeyou {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.Totalviews {
+  width: 230px;
+  height: 150px;
+  margin-left: 1.5em;
+  color: #111111;
+  border-radius: 10px;
+  background-color: #c8c8c8;
+}
+
+.Totalviews h4 {
+  position: absolute;
+  margin-left: 10px;
+}
+
+.Totalviews h1 {
+  position: absolute;
+  font-weight: 50px;
+  margin-left: .3em;
+  margin-top: 1.5em;
+}
+
+.Totalviews h5 {
+  position: absolute;
+  width: 30%;
+  margin-left: 11.6em;
+  margin-top: 5em;
+  color: #1db489;
+}
+
+.Totalviews svg {
+  position: relative;
+  margin-top: 4.5em;
+  margin-left: 9em;
+}
+
+body.dark .Totalviews {
+  color: #f1f1f1;
+  background-color: #222222;
+}
+
+.switch {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: none;
+}
+
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #F1F1F1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+  background: orange;
+  color: black;
+}
+
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+/*# sourceMappingURL=Smedia.css.map */

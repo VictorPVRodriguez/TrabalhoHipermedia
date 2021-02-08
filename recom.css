@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(236, 242, 248)
+}
+.container1{
+    width: auto; 
+    height: auto; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(117, 65, 200);
+    border-radius: 5px;
+}
+.container1 h6{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container1 h4{
+    position: relative;
+    margin-left: 1.5em;
+}
+.container1 p{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container1 img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.container2{
+    width: auto; 
+    height: auto; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 85, 106);
+    border-radius: 5px;
+}
+.container2 img{
+    border-radius: 50%; 
+    margin-left: 2.5em; 
+    width: 3em; 
+    border:3px solid hsl(0, 0%, 81%);
+}
+.container2 h6{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container2 h4{
+    position: relative;
+    margin-left: 1.5em;
+}
+.container2 p{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container2 img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.container3{
+    width: auto; 
+    height: auto; 
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.container3 img{
+    border-radius: 50%; 
+    margin-left: 2.5em; 
+    width: 3em; 
+    border:3px solid rgb(207, 207, 207);
+}
+.container3 h6{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container3 h4{
+    position: relative;
+    margin-left: 1.5em;
+}
+.container3 p{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container3 img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.container4{
+    width: auto; 
+    height: auto; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 33, 46);
+    border-radius: 5px;
+}
+.container4 img{
+    border-radius: 50%; 
+    margin-left: 2.5em; 
+    width: 3em; 
+    border:3px solid rgb(145, 110, 201);
+}
+.container4 h6{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container4 h4{
+    position: relative;
+    margin-left: 1.5em;
+}
+.container4 p{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container4 img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.container5{
+    width: auto; 
+    height: auto; 
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.container5 img{
+    border-radius: 50%; 
+    margin-left: 2.5em; 
+    width: 3em; 
+    border:3px solid rgb(135, 135, 135);
+}
+.container5 h6{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container5 h4{
+    position: relative;
+    margin-left: 1.5em;
+}
+.container5 p{
+    position: relative;
+    margin-left: 2.5em;
+}
+.container5 img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: rgb(62, 82, 163); 
+}
